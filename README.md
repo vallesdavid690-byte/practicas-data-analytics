@@ -1,13 +1,17 @@
-# practicas-data-analytics
 # Prácticas de SQL – Data Analytics
 
-Este repositorio contiene los ejercicios y entregables realizados durante el curso de Data Analytics.
+Este repositorio contiene los ejercicios y pre-entregas realizados durante el curso de Data Analytics.
 
-## Contenido
+## Estructura del repositorio
 
-- `modulo_2/`: creación y administración básica de tablas.
-- `modulo_3/ventas_tech_db.sql`: creación de la base de datos de ventas, tablas, relaciones y datos iniciales.
-- `modulo_4/m4_consultas_negocio.sql`: consultas SQL para obtener métricas de negocio.
+| Carpeta | Archivo | Contenido |
+|---|---|---|
+| `M1/` | `modulo2_unidad1_diseno.sql` | Creación básica de tablas. |
+| `M2/` | `modulo2_unidad2_inventario.sql` | Administración del inventario con DDL y DML. |
+| `M3/` | `ventas_tech_db.sql` | Base de datos de ventas, relaciones y carga inicial. |
+| `M4/` | `m4_consultas_negocio.sql` | Consultas SQL y métricas de negocio. |
+
+Las siguientes entregas se agregarán en su propia carpeta para mantener una estructura clara: `M5/`, `M6/`, etc.
 
 ## Herramientas utilizadas
 
@@ -19,14 +23,16 @@ Este repositorio contiene los ejercicios y entregables realizados durante el cur
 
 1. Abrir pgAdmin 4.
 2. Crear o seleccionar la base de datos `ventas_tech_db`.
-3. Abrir Query Tool.
-4. Ejecutar primero el archivo `modulo_3/ventas_tech_db.sql`.
-5. Ejecutar después el archivo `modulo_4/m4_consultas_negocio.sql`.
-6. Revisar los resultados de las cuatro consultas en Data Output.
+3. Abrir **Query Tool**.
+4. Ejecutar primero `M3/ventas_tech_db.sql`.
+5. Ejecutar después `M4/m4_consultas_negocio.sql`.
+6. Revisar los resultados en **Data Output**.
 
-## Consultas del módulo 4
+> Los archivos de M1 y M2 corresponden a prácticas anteriores y pueden ejecutarse de manera independiente.
 
-El archivo `m4_consultas_negocio.sql` incluye:
+## Contenido de M4
+
+El archivo `M4/m4_consultas_negocio.sql` incluye:
 
 1. Resumen ejecutivo mensual.
 2. Los cinco productos con mayor facturación.
